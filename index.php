@@ -6,6 +6,6 @@ if ($_GET('author') == "js") {
         "options" => json_decode($_GET("options")),
         "cmdid" => $_GET("cmdid"),
     );
-    file_put_contents("discordToMinecarft.json", json_encode($array));
+    file_put_contents("discordToMinecraft.json", json_encode($array));
 }
 ?>
